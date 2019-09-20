@@ -28,4 +28,6 @@ shoe1 = Show.new("Nike")
         Shoe.new(brand)
       end
 
-p Shoe::BRANDS
+p shoe1
+
+# p Shoe::BRANDS
