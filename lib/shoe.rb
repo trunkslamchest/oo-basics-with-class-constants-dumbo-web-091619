@@ -14,8 +14,8 @@ class Shoe
     p BRANDS
   end
   
-  def brand
-    @brand
+  def BRANDS
+    @BRANDS
   end
 
   # def BRANDS
