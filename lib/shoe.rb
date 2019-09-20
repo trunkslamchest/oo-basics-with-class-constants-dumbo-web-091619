@@ -21,7 +21,7 @@ class Shoe
 
 end
 
-shoe1 = Show.new("Nike")
+shoe1 = Shoe.new("Nike")
 
       brands = ["Uggs", "Rainbow"]
       brands.each do |brand|
