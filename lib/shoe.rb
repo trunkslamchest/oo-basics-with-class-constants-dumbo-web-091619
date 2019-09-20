@@ -11,7 +11,7 @@ class Shoe
   def brand=(brand)
     @brand = brand
     BRANDS << self.brand
-    p self
+    p brand
   end
 
   def cobble
@@ -30,4 +30,4 @@ shoe1 = Shoe.new("Nike")
 
 # p shoe1.brand
 
-p Shoe::BRANDS
+# p Shoe::BRANDS
