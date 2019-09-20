@@ -10,7 +10,7 @@ class Shoe
   
   def brand=(brand)
     @brand = brands
-    # BRANDS << self.brand
+    BRANDS << brands
     # p self
   end
 
