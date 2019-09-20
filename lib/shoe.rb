@@ -26,4 +26,4 @@ end
         p Shoe.new(brand)
       end
 
-  p Shoe.brand
+  # p Shoe.brand
