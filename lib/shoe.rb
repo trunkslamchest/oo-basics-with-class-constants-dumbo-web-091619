@@ -20,10 +20,9 @@ class Shoe
 
 end
 
-  # brands = ["Uggs", "Rainbow"]
-  
-  #     brands.each do |brand|
-  #     p Shoe.new(brand)
-  #     end
+      brands = ["Uggs", "Rainbow"]
+      brands.each do |brand|
+        Shoe.new(brand)
+      end
 
   p Shoe::BRANDS
