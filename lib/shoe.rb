@@ -11,16 +11,7 @@ class Shoe
   def brand=(brand)
     @brand = brand
     BRANDS << brand
-    p BRANDS
   end
-  
-  def BRANDS
-    @BRANDS
-  end
-
-  # def BRANDS
-  #   BRANDS
-  # end
 
   def cobble
     self.condition = "new"
