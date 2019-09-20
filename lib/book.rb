@@ -17,8 +17,6 @@ class Book
     puts "Flipping the page...wow, you read fast!"
   end
 
-    p GENRES
-
 end
 
       genres = ["Thriller", "Science Fiction", "Romance"]
@@ -27,4 +25,4 @@ end
         book.genre = genre
       end
 
-
+p GENRES
