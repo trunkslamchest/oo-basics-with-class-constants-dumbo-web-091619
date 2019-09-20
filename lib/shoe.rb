@@ -26,7 +26,7 @@ end
       brands = ["Uggs", "Rainbow"]
       brands.each do |brand|
         Shoe.new(brand)
-        p Shoe.brand
+        p Shoe.new
       end
 
 # p shoe1.brand
