@@ -20,4 +20,4 @@ class Shoe
 
 end
 
-  # p Shoe::BRANDS
+  p Shoe::BRANDS
