@@ -31,4 +31,4 @@ end
 
 # p shoe1.brand
 
-p Shoe::BRANDS
+# p Shoe::BRANDS
