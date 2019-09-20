@@ -21,5 +21,10 @@ class Book
 
 end
 
+      genres = ["Thriller", "Science Fiction", "Romance"]
+      genres.each_with_index do |genre, i|
+        book = Book.new("Book_#{i}")
+        book.genre = genre
+      end
 
-book1 = Book.new(my)
+
