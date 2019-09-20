@@ -17,7 +17,7 @@ class Shoe
     self.condition = "new"
     puts "Your shoe is as good as new!"
   end
-  
-  p Shoe::BRANDS
 
 end
+
+  p Shoe::BRANDS
