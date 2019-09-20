@@ -26,6 +26,6 @@ end
         Shoe.new(brand)
       end
 
-p Shoe:BRANDS
+p Shoe::BRANDS
 
   # p Shoe.brand
