@@ -23,6 +23,7 @@ end
       genres.each_with_index do |genre, i|
         book = Book.new("Book_#{i}")
         book.genre = genre
+        p book
       end
 
 p Book::GENRES
