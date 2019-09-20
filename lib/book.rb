@@ -14,10 +14,10 @@ class Book
     # p GENRES
   end
 
-    p GENRES
-
   def turn_page
     puts "Flipping the page...wow, you read fast!"
   end
+
+    p GENRES
 
 end
