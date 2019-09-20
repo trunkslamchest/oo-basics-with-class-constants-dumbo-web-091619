@@ -20,3 +20,6 @@ class Book
     p GENRES
 
 end
+
+
+book1 = Book.new(my)
