@@ -30,4 +30,4 @@ end
        p Shoe.new(brand)
       end
 
-  puts Shoe::BRANDS
+  p Shoe::BRANDS
