@@ -27,5 +27,3 @@ end
       end
 
 p Shoe::BRANDS
-
-  # p Shoe.brand
