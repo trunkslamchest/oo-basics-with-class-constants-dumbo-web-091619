@@ -19,4 +19,4 @@ class Book
 
 end
 
-p Book::GENRES
+p book.genre
