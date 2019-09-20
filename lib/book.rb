@@ -25,4 +25,4 @@ end
         book.genre = genre
       end
 
-p GENRES
+p Book::GENRES
