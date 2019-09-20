@@ -25,4 +25,4 @@ end
         p Shoe.new(brand)
       end
 
-  p Shoe
+  p Shoe.brand
