@@ -8,7 +8,7 @@ class Shoe
     @brand = brand
   end
   
-  def self.brand=(brand)
+  def brand=(brand)
     @brand = brand
     BRANDS << self
     # p self
@@ -20,6 +20,8 @@ class Shoe
   end
 
 end
+
+shoe1 = Show.new("Nike")
 
       brands = ["Uggs", "Rainbow"]
       brands.each do |brand|
