@@ -10,8 +10,7 @@ class Book
 
   def genre=(genre)
     @genre = genre
-    GENRES << genre 
-    # p GENRES
+    GENRES << genre
   end
 
   def turn_page
