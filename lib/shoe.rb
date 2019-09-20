@@ -13,9 +13,9 @@ class Shoe
     brands << "tets"
   end
 
-  def BRANDS
-    BRANDS
-  end
+  # def BRANDS
+  #   BRANDS
+  # end
 
   def cobble
     self.condition = "new"
