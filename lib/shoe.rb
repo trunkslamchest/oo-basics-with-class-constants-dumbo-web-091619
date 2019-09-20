@@ -30,5 +30,7 @@ end
   #     brands.each do |brand|
   #     p Shoe.new(brand)
   #     end
+  
+shoe1 = Shoe.new("Uggs")
 
   p Shoe::BRANDS
