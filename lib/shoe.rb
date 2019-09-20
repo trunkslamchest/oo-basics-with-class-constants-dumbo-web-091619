@@ -21,13 +21,9 @@ class Shoe
 
 end
 
-# shoe1 = Shoe.new("Nike")
-
       brands = ["Uggs", "Rainbow"]
       brands.each do |brand|
         p Shoe.new(brand)
       end
-
-# p shoe1.brand
 
 p Shoe::BRANDS
