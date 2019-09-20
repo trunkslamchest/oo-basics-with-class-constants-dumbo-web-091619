@@ -17,4 +17,6 @@ class Book
     puts "Flipping the page...wow, you read fast!"
   end
 
+p Book::GENRES
+
 end
