@@ -13,6 +13,10 @@ class Shoe
     BRANDS << "tets"
     p BRANDS
   end
+  
+  def brand
+    @brand
+  end
 
   # def BRANDS
   #   BRANDS
