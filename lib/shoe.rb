@@ -24,4 +24,6 @@ class Shoe
 
 end
 
+shoe1 = Shoe.new(brand)
+
   # p Shoe::BRANDS
