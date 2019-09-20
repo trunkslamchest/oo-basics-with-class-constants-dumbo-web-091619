@@ -22,7 +22,7 @@ end
 
       brands = ["Uggs", "Rainbow"]
       brands.each do |brand|
-        Shoe.new(brand)
+        p Shoe.new(brand)
       end
 
   p Shoe::BRANDS
